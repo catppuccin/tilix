@@ -12,8 +12,27 @@
 </p>
 
 <p align="center">
-  <img src="assets/tilix.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix.png"/>
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix-latte.png"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix-frappe.png"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix-macchiato.png"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix-mocha.png"/>
+</details>
 
 ## Usage
 
