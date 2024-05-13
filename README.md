@@ -6,41 +6,40 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/catppuccin/tilix/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/tilix?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/tilix/issues"><img src="https://img.shields.io/github/issues/catppuccin/tilix?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/tilix/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/tilix?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/tilix/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/tilix?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/tilix/issues"><img src="https://img.shields.io/github/issues/catppuccin/tilix?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/tilix/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/tilix?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix.png"/>
+	<img src="./assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix-latte.png"/>
+<img src="./assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix-frappe.png"/>
+<img src="./assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix-macchiato.png"/>
+<img src="./assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-  <img src="https://raw.githubusercontent.com/catppuccin/tilix/main/assets/tilix-mocha.png"/>
+<img src="./assets/mocha.webp"/>
 </details>
 
 ## Usage
 
-1. Clone this repository locally
-2. Copy themes from `src` to `~/.config/tilix/schemes` (first create directory if not exist)
-3. Go to Preferences and select your Tilix profile
-4. Select Colors tab
-5. Select Your favourite theme from dropdown
+1. Clone this repository locally.
+2. Move/copy the themem files in [`themes/`](./themes/) to `~/.config/tilix/schemes`.
+3. Open Tilix and select your Tilix profile in Preferences.
+4. Click the "Colors" tab and select your theme of choice from the dropdown.
 
 ## 💝 Thanks to
 
