@@ -37,7 +37,7 @@
 ## Usage
 
 1. Clone this repository locally.
-2. Move/copy the themem files in [`themes/`](./themes/) to `~/.config/tilix/schemes`.
+2. Move/copy the theme files in [`themes/`](./themes/) to `~/.config/tilix/schemes`.
 3. Open Tilix and select your Tilix profile in Preferences.
 4. Click the "Colors" tab and select your theme of choice from the dropdown.
 
