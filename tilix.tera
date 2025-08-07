@@ -7,6 +7,17 @@ whiskers:
 ---
 
 {%- set palette = flavor.colors -%}
+{%- if flavor.dark -%}
+  {%- set normal_black = palette.surface1 -%}
+  {%- set normal_white = palette.subtext0 -%}
+  {%- set bright_black = palette.surface2 -%}
+  {%- set bright_white = palette.subtext1 -%}
+{% else %}
+  {%- set normal_black = palette.subtext1 -%}
+  {%- set normal_white = palette.surface2 -%}
+  {%- set bright_black = palette.subtext0 -%}
+  {%- set bright_white = palette.surface1 -%}
+{%- endif -%}
 
 {
   "name": "Catppuccin {{ flavor.name }}",
@@ -20,22 +31,22 @@ whiskers:
   "highlight-background-color": "#{{ palette.rosewater.hex }}",
   "highlight-foreground-color": "#{{ palette.base.hex }}",
   "palette": [
-    "#{{ palette.subtext1.hex }}",
+    "#{{ normal_black.hex }}",
     "#{{ palette.red.hex }}",
     "#{{ palette.green.hex }}",
     "#{{ palette.yellow.hex }}",
     "#{{ palette.blue.hex }}",
     "#{{ palette.pink.hex }}",
     "#{{ palette.teal.hex }}",
-    "#{{ palette.surface2.hex }}",
-    "#{{ palette.subtext0.hex }}",
+    "#{{ normal_white.hex }}",
+    "#{{ bright_black.hex }}",
     "#{{ palette.red.hex }}",
     "#{{ palette.green.hex }}",
     "#{{ palette.yellow.hex }}",
     "#{{ palette.blue.hex }}",
     "#{{ palette.pink.hex }}",
     "#{{ palette.teal.hex }}",
-    "#{{ palette.surface1.hex }}"
+    "#{{ bright_white.hex }}"
   ],
   "use-badge-color": false,
   "use-bold-color": false,
